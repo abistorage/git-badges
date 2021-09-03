@@ -1,0 +1,29 @@
+{
+  "name": "abibadge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "exit 0",
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abistorage/git-badges.git"
+  },
+  "keywords": [
+    "ethereum",
+    "ipfs",
+    "filecoin",
+    "solidity",
+    "abi",
+    "defi"
+  ],
+  "author": "SEE CONTRIBUTORS",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/abistorage/git-badges/issues"
+  },
+  "homepage": "https://github.com/abistorage/git-badges#readme"
+}
