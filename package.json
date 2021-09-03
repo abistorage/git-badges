@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/abistorage/git-badges/issues"
   },
-  "homepage": "https://github.com/abistorage/git-badges#readme"
+  "homepage": "https://github.com/abistorage/git-badges#readme",
+  "devDependencies": {
+    "rollup": "^2.56.3",
+    "rollup-plugin-dts": "^4.0.0"
+  }
 }

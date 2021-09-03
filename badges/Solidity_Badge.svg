@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="20px" viewBox="0 0 119 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Solidity_Badge</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="119" height="20" rx="3"></rect>
+        <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#BBBBBB" stop-opacity="0.1" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solidity_Badge">
+            <g id="Clipped">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle"></g>
+                <g id="Group" mask="url(#mask-2)" fill-rule="nonzero">
+                    <rect id="Rectangle" fill="#555555" x="0" y="0" width="66" height="20"></rect>
+                    <rect id="Rectangle" fill="#2EA44F" x="27" y="0" width="92" height="20"></rect>
+                    <rect id="Rectangle" fill="url(#linearGradient-3)" x="0" y="0" width="119" height="20"></rect>
+                </g>
+            </g>
+            <g id="solidity" transform="translate(8.000000, 3.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M0.0602378322,3.85466667 L2.14926246,0.14875 L4.23828709,3.85466667 L0.0602378322,3.85466667 Z M2.40074079,0 L4.48801092,3.703 L6.57703554,0 L2.40074079,0 Z M4.76112808,10.1453333 L6.85015271,13.8518333 L8.94093183,10.1453333 L4.76112808,10.1453333 Z M4.40554942,4.14633333 L0.0602378322,4.14633333 L2.23289363,7.99925 L4.40554942,4.14633333 Z M4.65585808,4.0005 L9,4.0005 L6.82851387,0.14875 L4.65585808,4.0005 Z M6.59867438,14 L4.51140425,10.2964167 L2.42237962,14 L6.59867438,14 Z M4.34355709,9.9995 L0,9.9995 L2.17090129,13.85125 L4.34355709,9.9995 L4.34355709,9.9995 Z M4.59386575,9.85366667 L8.94093183,9.85366667 L6.76652154,6.00075 L4.59386575,9.85366667 Z" id="Shape"></path>
+            </g>
+            <text id="&gt;=0.7.0@v1" font-family="SFPro-Medium, SF Pro" font-size="11" font-weight="400" fill="#FFFFFF">
+                <tspan x="35" y="14">&gt;=0.7.0@v1</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
