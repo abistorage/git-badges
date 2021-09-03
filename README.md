@@ -6,7 +6,34 @@
 
 ### Figma
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6beQsp1qZanzuntNsUDGde%2Fabi.storage-shieldbadge%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+[figma asset](https://www.figma.com/file/6beQsp1qZanzuntNsUDGde/abi.storage-shieldbadge?node-id=0%3A1)
+
+
+### Design
+
+```css
+/* left */
+
+
+position: absolute;
+left: 0%;
+right: 58.38%;
+top: 2.38%;
+bottom: 2.38%;
+
+background: linear-gradient(180deg, #4B515F 0%, #181B22 100%);
+
+/* right */
+
+
+position: absolute;
+left: 41.62%;
+right: 0%;
+top: 2.38%;
+bottom: 2.38%;
+
+background: linear-gradient(180deg, #7857FB 0%, #4118E8 100%);
+```
 
 ### Usage
 
