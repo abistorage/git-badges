@@ -3,11 +3,11 @@ const shiki = require('shiki')
 
 shiki
   .getHighlighter({
-    theme: 'github-dark'
+    theme: 'github-plus-theme'
   })
   .then((highlighter) => {
     const html = highlighter.codeToHtml(
-      fs.readFileSync('ValidateUTF8.sol', 'utf-8'),
+      fs.readFileSync('ABDKMathQuad.sol', 'utf-8'),
       'solidity'
     )
 
@@ -16,7 +16,7 @@ shiki
 <link rel="stylesheet" href="style.css">
 ${html}`
 
-    fs.writeFileSync('index.html', out.trim())
+    fs.writeFileSync('gh-plus.html', out.trim())
 
     console.log('done highlighting index.js')
   })
