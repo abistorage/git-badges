@@ -1,0 +1,17 @@
+| Contract Name | Address | Version |
+| ------------- | ------- | ------- |
+{{#network.addresses}}
+| {{name}} | {{address}} | {{version}} |
+{{/network.addresses}} 
+
+| Contract Name | Address | Version |
+| ------------- | ------- | ------- |
+
+
+
+{{#each releases}}
+  {{#if href}}
+    ## [{{title}}]({{href}}){{#if tag}} ({{isoDate}}){{/if}}
+  {{else}}
+    ## {{title}}{{#if tag}} ({{isoDate}}){{/if}}
+  {{/if}}

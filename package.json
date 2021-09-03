@@ -6,7 +6,8 @@
   "types": "index.d.ts",
   "scripts": {
     "test": "exit 0",
-    "build": "node index.js"
+    "build": "node index.js",
+    "highlight": "node highlight.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   "homepage": "https://github.com/abistorage/git-badges#readme",
   "devDependencies": {
     "rollup": "^2.56.3",
-    "rollup-plugin-dts": "^4.0.0"
+    "rollup-plugin-dts": "^4.0.0",
+    "shiki": "^0.9.10"
   }
 }
